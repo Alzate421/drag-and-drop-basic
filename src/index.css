@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  max-width: 400px;
+}
+
+.todo-item {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.todo-item:active {
+  cursor: grabbing;
+  background-color: #f1f1f1;
+}
